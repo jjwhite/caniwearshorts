@@ -2,4 +2,5 @@
 <resources>
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">CanIWearShorts.droid</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8095189632231210/9816790482</string>
 </resources>

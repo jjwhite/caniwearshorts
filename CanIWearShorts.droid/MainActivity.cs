@@ -2,6 +2,7 @@
 using Android.Widget;
 using Android.OS;
 using Android.Webkit;
+using Android.Gms.Ads;
 
 namespace CanIWearShorts.droid
 {
@@ -15,6 +16,14 @@ namespace CanIWearShorts.droid
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
+            var id = "ca-app-pub-8095189632231210~8340057281";
+            Android.Gms.Ads.MobileAds.Initialize(ApplicationContext, id);
+
+            var adView = FindViewById<AdView>(Resource.Id.adView);
+            var adRequest = new AdRequest.Builder().Build();
+            adView.LoadAd(adRequest);
+
+            
             WebView webView = FindViewById<WebView>(Resource.Id.LocalWebView);
             webView.Settings.JavaScriptEnabled = true;
             webView.Settings.JavaScriptCanOpenWindowsAutomatically = true;

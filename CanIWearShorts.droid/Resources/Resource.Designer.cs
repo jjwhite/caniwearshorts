@@ -31,6 +31,15 @@ namespace CanIWearShorts.droid
 		public partial class Attribute
 		{
 			
+			// aapt resource value: 0x7f010000
+			public const int adSize = 2130771968;
+			
+			// aapt resource value: 0x7f010001
+			public const int adSizes = 2130771969;
+			
+			// aapt resource value: 0x7f010002
+			public const int adUnitId = 2130771970;
+			
 			static Attribute()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -60,8 +69,11 @@ namespace CanIWearShorts.droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int LocalWebView = 2131034112;
+			// aapt resource value: 0x7f070000
+			public const int LocalWebView = 2131165184;
+			
+			// aapt resource value: 0x7f070001
+			public const int adView = 2131165185;
 			
 			static Id()
 			{
@@ -69,6 +81,22 @@ namespace CanIWearShorts.droid
 			}
 			
 			private Id()
+			{
+			}
+		}
+		
+		public partial class Integer
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int google_play_services_version = 2131034112;
+			
+			static Integer()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Integer()
 			{
 			}
 		}
@@ -92,11 +120,17 @@ namespace CanIWearShorts.droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7f060002
+			public const int ApplicationName = 2131099650;
 			
-			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			// aapt resource value: 0x7f060001
+			public const int Hello = 2131099649;
+			
+			// aapt resource value: 0x7f060003
+			public const int banner_ad_unit_id = 2131099651;
+			
+			// aapt resource value: 0x7f060000
+			public const int common_google_play_services_unknown_issue = 2131099648;
 			
 			static String()
 			{
@@ -104,6 +138,49 @@ namespace CanIWearShorts.droid
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int Theme_IAPTheme = 2130968576;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
+			{
+			}
+		}
+		
+		public partial class Styleable
+		{
+			
+			public static int[] AdsAttrs = new int[] {
+					2130771968,
+					2130771969,
+					2130771970};
+			
+			// aapt resource value: 0
+			public const int AdsAttrs_adSize = 0;
+			
+			// aapt resource value: 1
+			public const int AdsAttrs_adSizes = 1;
+			
+			// aapt resource value: 2
+			public const int AdsAttrs_adUnitId = 2;
+			
+			static Styleable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Styleable()
 			{
 			}
 		}
