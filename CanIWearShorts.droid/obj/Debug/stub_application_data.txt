@@ -1,2 +1,0 @@
-android.app.Application
-CanIWearShorts.droid.CanIWearShorts.droid

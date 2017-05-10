@@ -1,8 +1,0 @@
-CanIWearShorts.droid.MainActivity, CanIWearShorts.droid;md50fd9555642970e9c311c17f0afc0a747.MainActivity
-CanIWearShorts.droid.MainActivity, CanIWearShorts.droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50fd9555642970e9c311c17f0afc0a747.MainActivity
-CanIWearShorts.droid.MainActivity;md50fd9555642970e9c311c17f0afc0a747.MainActivity
-caniwearshorts.droid.MainActivity;md50fd9555642970e9c311c17f0afc0a747.MainActivity
-CanIWearShorts.droid.GeoWebChromeClient, CanIWearShorts.droid;md50fd9555642970e9c311c17f0afc0a747.GeoWebChromeClient
-CanIWearShorts.droid.GeoWebChromeClient, CanIWearShorts.droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50fd9555642970e9c311c17f0afc0a747.GeoWebChromeClient
-CanIWearShorts.droid.GeoWebChromeClient;md50fd9555642970e9c311c17f0afc0a747.GeoWebChromeClient
-caniwearshorts.droid.GeoWebChromeClient;md50fd9555642970e9c311c17f0afc0a747.GeoWebChromeClient
