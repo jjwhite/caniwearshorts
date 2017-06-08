@@ -24,16 +24,24 @@ namespace CanIWearShorts.droid
             adView.LoadAd(adRequest);
 
             
+           
+
+        }
+
+        protected override void OnResume()
+        {
+            base.OnResume();
+
             WebView webView = FindViewById<WebView>(Resource.Id.LocalWebView);
             webView.Settings.JavaScriptEnabled = true;
             webView.Settings.JavaScriptCanOpenWindowsAutomatically = true;
-            webView.Settings.SetGeolocationEnabled(true);            
+            webView.Settings.SetGeolocationEnabled(true);
             webView.SetWebChromeClient(new GeoWebChromeClient());
             webView.LoadUrl("https://jjwhite.github.io");
 
         }
 
-        
+
     }
 
     public class GeoWebChromeClient : WebChromeClient
